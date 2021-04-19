@@ -1,4 +1,4 @@
 # FAVOR DAR OS CREDITOS SE REPOSTAR
 
 ![PREVIEW]
-(https://octodex.github.com/Semmap/hud/preview.png)
+(https://github.com/Semmap/hud/blob/main/preview.png?raw=true)
