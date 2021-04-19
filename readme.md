@@ -1,4 +1,4 @@
 # FAVOR DAR OS CREDITOS SE REPOSTAR
 
-![PREVIEW]
+![Imagem do Preview]
 (https://github.com/Semmap/hud/blob/main/preview.png?raw=true)
