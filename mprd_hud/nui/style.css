@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap') ;
+
+html {
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+	background-color: transparent !important;
+}
+
+body {
+	height: 100%;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	background-color: transparent !important;
+}
+
+.name {
+	text-align: center;
+}
+
+.hudText {
+	font-weight: bold;
+	color: white;
+}
+
+.subContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.value {
+	transition: all 0.3s ease-out;
+}
+
+.img {
+	width: 100px;
+	position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, 0);
+	top: 20px;
+	opacity: 0.8;
+}
+
+.icon {
+	margin: 10px 5px 0 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	width: 32px;
+	height: 32px;
+	max-height: 32px;
+	border-radius: 10px;
+}
+
+.icon .hudDisplayText {
+	width: 13px;
+	height: 19px;
+	position: relative;
+	top: calc((32px - 12px) / 2);
+	left: calc((32px - 12px) / 2);
+}
+
+section.default {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+section.default .icon .healthDisplay {
+	background-color: rgb(212, 59, 59);
+	position: absolute;
+	bottom: 30px;
+	border-radius: 10px;
+	width: 32px;
+}
+
+section.default .armourDisplay {
+	background-color: rgb(51, 51, 223);
+	position: absolute;
+	bottom: 30px;
+	border-radius: 10px;
+	width: 32px;
+}
+
+section.default .fuelDisplay {
+	background-color: rgb(240, 173, 49);
+	position: absolute;
+	bottom: 30px;
+	border-radius: 10px;
+	width: 32px;
+}
+
+section.car {
+	width: 100px;
+	height: 32px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-right: 150px;
+	margin-bottom: 30px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	text-align: center;
+	display: none;
+}
+
+section.car .carDisplay {
+	display: none;
+	color: white;
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: calc((32px - 15px) / 2);
+}
+
+section.car .carDisplay b {
+	color: rgb(48, 175, 48);
+}
